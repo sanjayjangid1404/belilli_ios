@@ -1,0 +1,89 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - Cosmos (23.0.0)
+  - Google-Maps-iOS-Utils (4.2.2):
+    - Google-Maps-iOS-Utils/Clustering (= 4.2.2)
+    - Google-Maps-iOS-Utils/Geometry (= 4.2.2)
+    - Google-Maps-iOS-Utils/GeometryUtils (= 4.2.2)
+    - Google-Maps-iOS-Utils/Heatmap (= 4.2.2)
+    - Google-Maps-iOS-Utils/QuadTree (= 4.2.2)
+    - GoogleMaps (~> 7.3)
+  - Google-Maps-iOS-Utils/Clustering (4.2.2):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps (~> 7.3)
+  - Google-Maps-iOS-Utils/Geometry (4.2.2):
+    - GoogleMaps (~> 7.3)
+  - Google-Maps-iOS-Utils/GeometryUtils (4.2.2):
+    - GoogleMaps (~> 7.3)
+  - Google-Maps-iOS-Utils/Heatmap (4.2.2):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps (~> 7.3)
+  - Google-Maps-iOS-Utils/QuadTree (4.2.2):
+    - GoogleMaps (~> 7.3)
+  - GoogleMaps (7.4.0):
+    - GoogleMaps/Maps (= 7.4.0)
+  - GoogleMaps/Base (7.4.0)
+  - GoogleMaps/Maps (7.4.0):
+    - GoogleMaps/Base
+  - IQKeyboardManagerSwift (6.5.12)
+  - Kingfisher (7.9.1)
+  - SDWebImage (5.18.0):
+    - SDWebImage/Core (= 5.18.0)
+  - SDWebImage/Core (5.18.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.3.0)
+  - SwiftyStoreKit (0.16.1)
+  - TagListView (1.4.1)
+  - Toast (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage (~> 3.2)
+  - Cosmos
+  - Google-Maps-iOS-Utils
+  - GoogleMaps
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - SDWebImage
+  - SVProgressHUD
+  - SwiftyJSON (~> 4.0)
+  - SwiftyStoreKit
+  - TagListView
+  - Toast
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - Cosmos
+    - Google-Maps-iOS-Utils
+    - GoogleMaps
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - SDWebImage
+    - SVProgressHUD
+    - SwiftyJSON
+    - SwiftyStoreKit
+    - TagListView
+    - Toast
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  Google-Maps-iOS-Utils: f77eab4c4326d7e6a277f8e23a0232402731913a
+  GoogleMaps: 032f676450ba0779bd8ce16840690915f84e57ac
+  IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
+  Kingfisher: 1d14e9f59cbe19389f591c929000332bf70efd32
+  SDWebImage: 182830bcddc30cde95fbc60dfe4badc3553d94ba
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+  TagListView: a1c236d17960a0cf64156725a76ce6d73ebce2be
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+
+PODFILE CHECKSUM: 3ccb76bbd62848f554f4d8aacdfb4a11a722642b
+
+COCOAPODS: 1.12.1

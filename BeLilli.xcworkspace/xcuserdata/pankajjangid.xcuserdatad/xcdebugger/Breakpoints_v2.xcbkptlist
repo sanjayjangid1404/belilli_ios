@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "09B32813-55B8-4D0F-AA39-84EAB4EE3158"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B1DBC10-9F49-4CCE-BB69-6E5E4A78DE08"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeLilli/MVC/Controller/InApp Purchase/TNInAppPurchaseHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "verifyReceiptFromServer(receipt:userId:isRestore:promoCode:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1B1DBC10-9F49-4CCE-BB69-6E5E4A78DE08 - 70785188420962b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeLilli.TNInAppPurchaseHandler.verifyReceiptFromServer(receipt: Swift.String, userId: Swift.String, isRestore: Swift.Bool, promoCode: Swift.Optional&lt;Swift.String&gt;, completion: Swift.Optional&lt;(Swift.Bool, Swift.Optional&lt;BeLilli.VerificationPlan&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "BeLilli"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankajjangid/Documents/Archive/Belilli/BeLilli/BeLilli/MVC/Controller/InApp%20Purchase/TNInAppPurchaseHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "1B1DBC10-9F49-4CCE-BB69-6E5E4A78DE08 - 70785188420962b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeLilli.TNInAppPurchaseHandler.verifyReceiptFromServer(receipt: Swift.String, userId: Swift.String, isRestore: Swift.Bool, promoCode: Swift.Optional&lt;Swift.String&gt;, completion: Swift.Optional&lt;(Swift.Bool, Swift.Optional&lt;BeLilli.VerificationPlan&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "BeLilli"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankajjangid/Documents/Archive/Belilli/BeLilli/BeLilli/MVC/Controller/InApp%20Purchase/TNInAppPurchaseHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "1B1DBC10-9F49-4CCE-BB69-6E5E4A78DE08 - 70785188420962b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeLilli.TNInAppPurchaseHandler.verifyReceiptFromServer(receipt: Swift.String, userId: Swift.String, isRestore: Swift.Bool, promoCode: Swift.Optional&lt;Swift.String&gt;, completion: Swift.Optional&lt;(Swift.Bool, Swift.Optional&lt;BeLilli.VerificationPlan&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "BeLilli"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankajjangid/Documents/Archive/Belilli/BeLilli/BeLilli/MVC/Controller/InApp%20Purchase/TNInAppPurchaseHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "316">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9189FFA6-A0A3-4064-B429-C25234707A11"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeLilli/MVC/Controller/Profile/EditProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "changePasswordAPICall()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

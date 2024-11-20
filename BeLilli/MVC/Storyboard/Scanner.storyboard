@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35" y="38"/>
+        </scene>
+        <!--QRScanner-->
+        <scene sceneID="JrM-0G-Z10">
+            <objects>
+                <viewController storyboardIdentifier="qRScannerViewController" id="Kds-M3-h4Z" customClass="QRScannerViewController" customModule="BeLilli" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v5J-22-pnd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xr6-8Z-NPx" customClass="QRScannerView" customModule="BeLilli" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="48" width="414" height="714"/>
+                                <color key="backgroundColor" systemColor="darkTextColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Vl-5E-ZR2">
+                                <rect key="frame" x="352" y="65" width="45" height="45"/>
+                                <color key="backgroundColor" red="0.79458792099999997" green="0.27550812429999999" blue="0.20028522970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="EnP-Ct-IfY"/>
+                                    <constraint firstAttribute="width" secondItem="5Vl-5E-ZR2" secondAttribute="height" multiplier="1:1" id="zEv-L4-m6M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="S">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="scanButtonAction:" destination="Kds-M3-h4Z" eventType="touchUpInside" id="uwD-uo-5ZS"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kwO-wr-bTT">
+                                <rect key="frame" x="0.0" y="48" width="414" height="814"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Asn-Oi-D2B">
+                                        <rect key="frame" x="10" y="305" width="394" height="204"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wgn-QU-n5c">
+                                                <rect key="frame" x="20" y="68" width="354" height="45.5"/>
+                                                <string key="text">Purchase or renew your membership today to see your virtual membership card appear here. You can then access all the rewards listed in the app.</string>
+                                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="13"/>
+                                                <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="61I-HW-dMP">
+                                                <rect key="frame" x="107" y="131.5" width="180" height="42"/>
+                                                <color key="backgroundColor" red="0.61568627450000002" green="0.67843137249999996" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="180" id="Gca-fh-VVY"/>
+                                                    <constraint firstAttribute="height" constant="42" id="lpL-Fe-JXO"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="13"/>
+                                                <state key="normal" title="Become a member">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="21"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="subscriptionButtonAction:" destination="Kds-M3-h4Z" eventType="touchUpInside" id="7XC-tC-2sf"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="204" id="OZu-M4-bJL"/>
+                                            <constraint firstItem="Wgn-QU-n5c" firstAttribute="leading" secondItem="Asn-Oi-D2B" secondAttribute="leading" constant="20" id="RVx-4L-89o"/>
+                                            <constraint firstItem="Wgn-QU-n5c" firstAttribute="top" secondItem="Asn-Oi-D2B" secondAttribute="top" constant="68" id="g16-Lh-HPl"/>
+                                            <constraint firstAttribute="trailing" secondItem="Wgn-QU-n5c" secondAttribute="trailing" constant="20" id="gOW-NJ-Mwj"/>
+                                            <constraint firstItem="61I-HW-dMP" firstAttribute="centerX" secondItem="Wgn-QU-n5c" secondAttribute="centerX" id="pEx-kB-5a4"/>
+                                            <constraint firstItem="61I-HW-dMP" firstAttribute="top" secondItem="Wgn-QU-n5c" secondAttribute="bottom" constant="18" id="qWw-AJ-G5X"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Asn-Oi-D2B" secondAttribute="trailing" constant="10" id="9Ll-i8-TXZ"/>
+                                    <constraint firstItem="Asn-Oi-D2B" firstAttribute="centerY" secondItem="kwO-wr-bTT" secondAttribute="centerY" id="Nl3-RA-5cn"/>
+                                    <constraint firstItem="Asn-Oi-D2B" firstAttribute="leading" secondItem="kwO-wr-bTT" secondAttribute="leading" constant="10" id="mPu-9d-y7z"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9G9-5y-eV6"/>
+                        <color key="backgroundColor" red="0.019607843140000001" green="0.0" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Xr6-8Z-NPx" firstAttribute="top" secondItem="9G9-5y-eV6" secondAttribute="top" id="0oE-5T-Svm"/>
+                            <constraint firstItem="Xr6-8Z-NPx" firstAttribute="leading" secondItem="9G9-5y-eV6" secondAttribute="leading" id="6je-aj-tUE"/>
+                            <constraint firstItem="9G9-5y-eV6" firstAttribute="trailing" secondItem="5Vl-5E-ZR2" secondAttribute="trailing" constant="17" id="7co-bj-6zc"/>
+                            <constraint firstItem="kwO-wr-bTT" firstAttribute="top" secondItem="9G9-5y-eV6" secondAttribute="top" id="8sp-Zl-DHV"/>
+                            <constraint firstItem="kwO-wr-bTT" firstAttribute="trailing" secondItem="9G9-5y-eV6" secondAttribute="trailing" id="DWd-dm-sSl"/>
+                            <constraint firstItem="kwO-wr-bTT" firstAttribute="bottom" secondItem="9G9-5y-eV6" secondAttribute="bottom" id="ERB-e7-85h"/>
+                            <constraint firstItem="9G9-5y-eV6" firstAttribute="bottom" secondItem="Xr6-8Z-NPx" secondAttribute="bottom" constant="100" id="KsB-EC-ClE"/>
+                            <constraint firstItem="kwO-wr-bTT" firstAttribute="leading" secondItem="9G9-5y-eV6" secondAttribute="leading" id="TEl-I4-amI"/>
+                            <constraint firstItem="5Vl-5E-ZR2" firstAttribute="top" secondItem="9G9-5y-eV6" secondAttribute="top" constant="17" id="kGe-Ly-udz"/>
+                            <constraint firstItem="9G9-5y-eV6" firstAttribute="trailing" secondItem="Xr6-8Z-NPx" secondAttribute="trailing" id="oMv-Pr-CYa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="QRScanner" largeTitleDisplayMode="always" id="5zT-0u-l4y"/>
+                    <connections>
+                        <outlet property="scanButton" destination="5Vl-5E-ZR2" id="kdA-Wl-M2L"/>
+                        <outlet property="scannerView" destination="Xr6-8Z-NPx" id="NR8-Oo-3r7"/>
+                        <outlet property="viewContainer" destination="kwO-wr-bTT" id="rzx-t6-5zW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4qK-fj-5eN" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992.75362318840587" y="26.785714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_BeLilliTests {
+  umbrella header "Pods-BeLilliTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
